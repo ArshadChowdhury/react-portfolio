@@ -45,6 +45,7 @@
             padding-left: 9px;
             transform: scale(1.1);
             font-weight: 500;
+            cursor: help;
           }
         }
       }
@@ -69,7 +70,7 @@
     }
   }
   &.active {
-    background-color: #6c4a4a;
+    background-color: crimson;
     color: #fff;
 
     .menu {
