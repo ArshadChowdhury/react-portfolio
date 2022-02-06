@@ -1,14 +1,34 @@
 .works {
-  background-color: crimson;
+  background-color: cornsilk;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+  .arrow {
+    height: 55px;
+    width: 60px;
+    background-color: cornsilk;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 100px;
+    }
+
+    &.right {
+      right: 100px;
+      transform: rotate(180deg);
+    }
+  }
 
   .slider {
     height: 350px;
     display: flex;
     position: absolute;
     left: 0;
+    transition: all 1s linear;
 
     .container {
       width: 100vw;
@@ -17,13 +37,14 @@
       justify-content: center;
 
       .item {
-        width: 700px;
-        height: 430px;
+        width: 800px;
+        height: 100%;
         background-color: white;
-        border-radius: 20%;
+        border-radius: 5%;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 2s linear;
 
         .left {
           flex: 4;
@@ -57,13 +78,13 @@
           }
         }
         h2 {
-          font-size: 22px;
+          font-size: 24px;
         }
         p {
-          font-size: 12px;
+          font-size: 14px;
         }
         span {
-          font-size: 10px;
+          font-size: 13px;
           font-weight: 600;
           text-decoration: underline;
           cursor: pointer;
@@ -75,6 +96,14 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 90%;
+            border-radius: 5%;
+
+            transform: rotate(-10deg);
+          }
         }
       }
     }
