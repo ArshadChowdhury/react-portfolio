@@ -19,22 +19,25 @@
       float: right;
       margin-top: 50px;
       transform: matrix3d(-50%, 50%);
-      animation: slide 3s linear;
+      animation: slide 2.5s linear;
+
       @keyframes slide {
         0% {
           background-color: #461111;
           top: 0px;
           transform: translate(-50%, -50%);
+          border-radius: 5%;
         }
         50% {
           background-color: #9b0000;
           top: 0px;
-
+          border-radius: 35%;
           transform: translate(50%, 50%);
           opacity: 0;
         }
         100% {
           background-color: #fe7e6d;
+          border-radius: 50%;
         }
       }
       img {

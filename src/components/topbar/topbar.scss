@@ -23,7 +23,7 @@
       .logo {
         font-size: 30px;
         text-decoration: none;
-        font-weight: 900;
+        font-weight: 500;
         color: inherit;
         margin-right: 40px;
       }
@@ -32,21 +32,26 @@
         display: flex;
         align-items: center;
         padding: 0 20px;
+        &:hover {
+          transform: scale(1.1);
+          font-weight: 900;
+          cursor: help;
+        }
 
         .icon {
-          padding: 0 2px;
+          padding: 0 5px;
           font-size: 18px;
+          height: 25px;
+          width: 25px;
+        }
+
+        .rightSide {
+          margin-left: 170px;
         }
 
         span {
           font-size: 15px;
           font-weight: 400;
-          &:hover {
-            padding-left: 9px;
-            transform: scale(1.1);
-            font-weight: 500;
-            cursor: help;
-          }
         }
       }
     }
@@ -72,6 +77,10 @@
   &.active {
     background-color: crimson;
     color: #fff;
+    h2 {
+      color: black;
+      font-weight: 400;
+    }
 
     .menu {
       span {

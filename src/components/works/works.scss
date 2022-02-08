@@ -1,4 +1,9 @@
 .works {
+  h1 {
+    font-size: 45px;
+    overflow: hidden;
+    margin-bottom: 520px;
+  }
   background-color: cornsilk;
   display: flex;
   align-items: center;
@@ -79,6 +84,7 @@
         }
         h2 {
           font-size: 24px;
+          padding: 5px 0;
         }
         p {
           font-size: 14px;
@@ -101,7 +107,6 @@
           img {
             width: 90%;
             border-radius: 5%;
-
             transform: rotate(-10deg);
           }
         }

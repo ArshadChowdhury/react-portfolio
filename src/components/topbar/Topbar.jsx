@@ -17,6 +17,13 @@ export default function Topbar({ menuActive, setMenuActive }) {
             <Call className="icon" />
             <span>+8801676830816</span>
           </div>
+          <div className="itemContainer">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/271/271218.png"
+              className="icon rightSide"
+            />
+            <h2>Let's Talk</h2>
+          </div>
         </div>
 
         <div className="right">

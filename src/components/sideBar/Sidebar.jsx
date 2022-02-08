@@ -1,4 +1,3 @@
-import Sidebarclose from "../Sidebarclose";
 import "./sidebar.scss";
 
 export default function Sidebar({ menuActive, setMenuActive }) {

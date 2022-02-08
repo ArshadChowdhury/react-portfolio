@@ -19,7 +19,7 @@
     overflow: hidden;
   }
   .container {
-    width: 75%;
+    width: 62%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +43,7 @@
       h3 {
         position: absolute;
         padding: 15px;
+        z-index: -2;
       }
 
       img {
@@ -53,6 +54,10 @@
 
       &:hover {
         background-color: $mainColor;
+
+        h3 {
+          z-index: 2;
+        }
 
         img {
           opacity: 0.2;
