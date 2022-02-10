@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -13,6 +15,9 @@ input[type="text"]:focus {
 .contacts {
   background-color: white;
   display: flex;
+  @include mobile {
+    flex-direction: column;
+  }
 
   .left {
     flex: 1;
@@ -20,6 +25,10 @@ input[type="text"]:focus {
 
     img {
       height: 100%;
+      @include mobile {
+        height: 30vh;
+        width: 100vw;
+      }
     }
   }
   .right {
@@ -28,9 +37,17 @@ input[type="text"]:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include mobile {
+      justify-content: space-evenly;
+      flex: 2;
+    }
 
     h2 {
       font-size: 45px;
+
+      @include mobile {
+        font-size: 28px;
+      }
     }
 
     form {
@@ -40,6 +57,9 @@ input[type="text"]:focus {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      @include mobile {
+        justify-content: flex-start;
+      }
 
       input {
         width: 300px;
@@ -48,6 +68,12 @@ input[type="text"]:focus {
         margin: 5px 0;
         border-radius: 5px;
         padding-left: 5px;
+
+        @include mobile {
+          width: 200px;
+          height: 20px;
+          margin: 3px 0;
+        }
       }
 
       textarea {
@@ -56,6 +82,11 @@ input[type="text"]:focus {
         font-size: 14px;
         border-radius: 10px;
         padding: 5px;
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
       }
 
       button {

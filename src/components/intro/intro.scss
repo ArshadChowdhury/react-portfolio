@@ -57,7 +57,7 @@
         height: fit-content;
 
         @include mobile {
-          height: 50%;
+          height: 55%;
         }
       }
     }
@@ -96,13 +96,13 @@
       h2 {
         font-size: 35px;
         @include mobile {
-          font-size: 24px;
+          font-size: 22px;
         }
       }
       h3 {
         font-size: 30px;
         @include mobile {
-          font-size: 20px;
+          font-size: 21px;
         }
 
         span {
