@@ -37,6 +37,9 @@
           font-weight: 900;
           cursor: help;
         }
+        @include mobile {
+          display: none;
+        }
 
         .icon {
           padding: 0 5px;

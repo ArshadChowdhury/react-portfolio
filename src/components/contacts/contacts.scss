@@ -1,3 +1,15 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="text"]:focus {
+  border: 3px solid rgb(88, 83, 83);
+}
+
 .contacts {
   background-color: white;
   display: flex;
@@ -35,6 +47,7 @@
         font-size: 14px;
         margin: 5px 0;
         border-radius: 5px;
+        padding-left: 5px;
       }
 
       textarea {
@@ -42,6 +55,7 @@
         height: 200px;
         font-size: 14px;
         border-radius: 10px;
+        padding: 5px;
       }
 
       button {
@@ -60,6 +74,13 @@
     span {
       color: green;
       margin-top: 5px;
+      box-sizing: border-box;
+
+      img {
+        height: 15px;
+        width: 16px;
+        margin-top: 3px;
+      }
     }
   }
 }

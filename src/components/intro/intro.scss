@@ -4,9 +4,18 @@
   background-color: #fff;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .left {
     flex: 4;
     overflow: hidden;
+
+    @include mobile {
+      flex: 8;
+    }
 
     .imgContainer {
       height: 450px;
@@ -20,6 +29,10 @@
       margin-top: 50px;
       transform: matrix3d(-50%, 50%);
       animation: slide 2.5s linear;
+
+      @include mobile {
+        align-items: flex-start;
+      }
 
       @keyframes slide {
         0% {
@@ -42,6 +55,10 @@
       }
       img {
         height: fit-content;
+
+        @include mobile {
+          height: 50%;
+        }
       }
     }
   }
@@ -49,6 +66,9 @@
     flex: 6;
     position: relative;
     overflow: hidden;
+    @include mobile {
+      flex: 8;
+    }
 
     .wrapper {
       width: 100%;
@@ -60,19 +80,37 @@
       justify-content: center;
       color: #000000;
 
+      @include mobile {
+        width: 169px;
+        margin: 50px 50px 200px 0;
+        justify-content: flex-start;
+      }
+
       h1 {
         font-size: 60px;
         margin: 10px 0;
+        @include mobile {
+          font-size: 28px;
+        }
       }
       h2 {
         font-size: 35px;
+        @include mobile {
+          font-size: 24px;
+        }
       }
       h3 {
         font-size: 30px;
+        @include mobile {
+          font-size: 20px;
+        }
 
         span {
           font-size: inherit;
           color: #fe7e6d;
+          @include mobile {
+            font-size: 20px;
+          }
         }
 
         .ityped-cursor {
@@ -97,6 +135,14 @@
       img {
         width: 60px;
         animation: arrowBlink 1s infinite;
+
+        @include mobile {
+          height: 35px;
+          width: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
       @keyframes arrowBlink {
         50% {

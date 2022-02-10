@@ -59,8 +59,8 @@ export default function Portfolio() {
         ))}
       </ul>
       <div className="container">
-        {data.map((d) => (
-          <div className="item">
+        {data.map((d, i) => (
+          <div className="item" key={i}>
             <img src={d.img} alt="Banking App Picture" />
             <h3>{d.title}</h3>
           </div>

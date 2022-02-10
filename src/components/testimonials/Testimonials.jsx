@@ -33,8 +33,8 @@ export default function Testimonials() {
     <div className="testimonials" id="testimonials">
       <h1>Testimonials</h1>
       <div className="container">
-        {data.map((d) => (
-          <div className={d.featured ? "card featured" : "card"}>
+        {data.map((d, i) => (
+          <div className={d.featured ? "card featured" : "card"} key={i}>
             <div className="top">
               <img className="left" src="assets/arrow.png" alt="icon" />
               <img className="user" src={d.img} alt="User" />

@@ -10,6 +10,7 @@ import "./app.scss";
 
 function App() {
   const [menuActive, setMenuActive] = useState(false);
+
   return (
     <div className="app">
       <Topbar menuActive={menuActive} setMenuActive={setMenuActive} />
