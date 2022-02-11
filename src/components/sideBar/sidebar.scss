@@ -1,9 +1,10 @@
 @import "../../global.scss";
 
 .sideBar {
+  font-family: "Roboto", sans-serif;
   width: 289px;
   height: 100vh;
-  background-color: crimson;
+  background-color: #fe7e6d;
   position: fixed;
   top: 0;
   right: -300px;

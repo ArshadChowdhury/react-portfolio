@@ -2,7 +2,7 @@ import Contacts from "./components/contacts/Contacts";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
+import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 import Sidebar from "./components/sideBar/Sidebar";
 import { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Works />
+        <Services />
         <Testimonials />
         <Contacts />
       </div>

@@ -4,28 +4,31 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
+      name: "Mohammad Al-Amin",
       title: "Senior Developer",
-      img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "assets/nirob_vai.jpg",
       icon: "assets/twitter.png",
+      href: "https://twitter.com/0xweathered",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Joshua Fluke",
+      title: "CEO of Grind Reel",
+      img: "assets/jshua.jpg",
       icon: "assets/youtube.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      href: "https://www.youtube.com/c/JoshuaFluke1",
+      desc: "Arshad is a fast learner with great communication skills, he's tech-savvy & have worked on several small projects and shown great potential at Grind Reel. He's still a valuable member of Grind Reel community, He has a great understanding of the front-end technologies & great research capabilities. He's also very reliable, you can always expect him to get the job done in time. ",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      name: "Iftekhar Ahmed",
+      title: "Data Scientist at kloeckner.i GmbH",
+      img: "assets/iftekhar.jpg",
+      href: "https://www.linkedin.com/in/ahmed-iftekhar/",
+      icon: "assets/linked_in.png",
+      desc: "Arshad has been collaborating with me & big communities for quite some time now, which has made him intimately familiar with all the stages of the web lifecycle from the initial architecture to final deployment, he's highly recommended for all kind of web projects.",
     },
   ];
 
@@ -38,7 +41,10 @@ export default function Testimonials() {
             <div className="top">
               <img className="left" src="assets/arrow.png" alt="icon" />
               <img className="user" src={d.img} alt="User" />
-              <img className="right" src={d.icon} alt="icon" />
+              <a href={d.href}>
+                {" "}
+                <img className="right" src={d.icon} alt="icon" />
+              </a>
             </div>
             <div className="center">{d.desc}</div>
             <div className="bottom">

@@ -1,14 +1,13 @@
 @import "../../global.scss";
 
-.works {
+.services {
   h1 {
     font-size: 45px;
     overflow: hidden;
     margin-bottom: 520px;
 
     @include mobile {
-      font-size: 28px;
-      margin-top: 40px;
+      display: none;
     }
   }
   background-color: cornsilk;
@@ -21,7 +20,7 @@
   .arrow {
     height: 55px;
     width: 60px;
-    background-color: cornsilk;
+    background-color: transparent;
     position: absolute;
     cursor: pointer;
 
@@ -86,7 +85,7 @@
             flex: 5;
           }
 
-          .left-contaier {
+          .left-container {
             width: 90%;
             height: 70%;
             display: flex;
@@ -97,7 +96,7 @@
           .imgContainer {
             width: 40px;
             height: 40px;
-            border-radius: 50%;
+            border-radius: 20%;
             background-color: #fff;
             display: flex;
             align-items: center;
@@ -110,7 +109,7 @@
             }
           }
           img {
-            width: 25px;
+            width: 35px;
             margin-right: 20px;
             @include mobile {
               height: 22px;

@@ -11,7 +11,7 @@ export default function Sidebar({ menuActive, setMenuActive }) {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li onClick={() => setMenuActive(!menuActive)}>
-          <a href="#works">Works</a>
+          <a href="#services">Services</a>
         </li>
         <li onClick={() => setMenuActive(!menuActive)}>
           <a href="#testimonials">Testimonials</a>

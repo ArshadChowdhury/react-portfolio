@@ -1,28 +1,33 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Daily Blog App",
+    img: "assets/blog.png",
+    href: "https://shielded-tundra-03733.herokuapp.com/",
   },
   {
     id: 2,
-    title: "Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+    title: "To-Do-List App",
+    img: "assets/to_do_list.png",
+    href: "https://hidden-retreat-39047.herokuapp.com/",
   },
   {
     id: 3,
-    title: " E-commerce Web Design",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    title: "Online Shop",
+    img: "assets/online_shop.png",
+    href: "https://arshadchowdhury.github.io/Online-Shop/",
   },
   {
     id: 4,
-    title: "Relax Mobile App",
-    img: "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+    title: "Other Portfolio",
+    img: "assets/other_portfolio.png",
+    href: "https://arshadchowdhury.github.io/better-mail-arshad/",
   },
   {
     id: 5,
-    title: "Hero Web Design",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    title: "Front-End-Mentor Challenge",
+    img: "assets/front_end.png",
+    href: "https://arshadchowdhury.github.io/front-end-mentor-challenge1/",
   },
   {
     id: 6,
