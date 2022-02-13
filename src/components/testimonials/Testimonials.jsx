@@ -9,7 +9,7 @@ export default function Testimonials() {
       img: "assets/nirob_vai.jpg",
       icon: "assets/twitter.png",
       href: "https://twitter.com/0xweathered",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      desc: "",
     },
     {
       id: 2,

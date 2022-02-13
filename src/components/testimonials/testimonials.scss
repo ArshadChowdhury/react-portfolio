@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .testimonials {
-  background-color: wheat;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,8 @@
 
       @include mobile {
         height: 180px;
-        margin: 4px 0;
+        margin: 2px 0;
+        height: 45%;
       }
 
       &.featured {
@@ -90,7 +91,7 @@
               width: 35px;
               height: 35px;
               padding-bottom: 4px;
-              border-radius: 30%;
+              border-radius: 15%;
             }
           }
         }
@@ -99,12 +100,12 @@
       .center {
         padding: 7px;
         border-radius: 15px;
-        background-color: rgb(204, 190, 193);
+        background-color: wheat;
         font-size: 14px;
 
         @include mobile {
-          font-size: 12px;
-          overflow: hidden;
+          padding: 2px 3px;
+          font-size: 9px;
         }
       }
       .bottom {
@@ -113,8 +114,7 @@
         flex-direction: column;
         justify-content: center;
         @include mobile {
-          font-size: 13px;
-          margin: 2px;
+          font-size: 12px;
         }
 
         h3 {
