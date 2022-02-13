@@ -9,7 +9,7 @@ export default function Testimonials() {
       img: "assets/nirob_vai.jpg",
       icon: "assets/twitter.png",
       href: "https://twitter.com/0xweathered",
-      desc: "",
+      desc: "Arshad is a great dev",
     },
     {
       id: 2,
