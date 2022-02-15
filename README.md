@@ -1,3 +1,4 @@
 # React Portfolio
-## I'm still working on it
-It's looking somewhat good but I still need to build a backend for it & I'll purchase a domain/hosting this time after completion.
+## Built this react portfolio website from scratch.
+### I've used lots of React hooks in it like useState,useEffect etc.
+### I've also included some of my smaller projects in the portfolio section, make sure to check them out.
