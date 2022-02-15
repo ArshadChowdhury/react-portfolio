@@ -31,9 +31,9 @@ export const featuredPortfolio = [
   },
   {
     id: 6,
-    title: "React-Portfolio",
-    img: "assets/react_portfolio.png",
-    href: "",
+    title: "React-Calculator",
+    img: "assets/calculator.png",
+    href: "https://reactcalculatorbyarshad.netlify.app/",
   },
 ];
 

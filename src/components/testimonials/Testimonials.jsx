@@ -9,7 +9,7 @@ export default function Testimonials() {
       img: "assets/nirob_vai.jpg",
       icon: "assets/twitter.png",
       href: "https://twitter.com/0xweathered",
-      desc: "Arshad is a great dev",
+      desc: "Arshad always had perseverance in the face of obstacles, he went above & beyond to solve any problem that was presented to him. He loves technology. He's friendly & easy to work with. I've known him for years, he's very reliable & trustworthy person. He'd be a great asset to any company he works for. ",
     },
     {
       id: 2,
