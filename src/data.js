@@ -1,27 +1,27 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Daily Blog App",
-    img: "assets/blog.png",
-    href: "https://shielded-tundra-03733.herokuapp.com/",
+    title: "React-Calculator",
+    img: "assets/calculator.png",
+    href: "https://reactcalculatorbyarshad.netlify.app/",
   },
   {
     id: 2,
-    title: "To-Do-List App",
-    img: "assets/to_do_list.png",
-    href: "https://hidden-retreat-39047.herokuapp.com/",
+    title: "Daily Blog App",
+    img: "assets/blogz.png",
+    href: "https://dailyblogbyarshad.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Online Shop",
-    img: "assets/online_shop.png",
-    href: "https://arshadchowdhury.github.io/Online-Shop/",
+    title: "To-Do-List App",
+    img: "assets/to_do_listz.png",
+    href: "https://todolistbyarshad.herokuapp.com/",
   },
   {
     id: 4,
-    title: "Other Portfolio",
-    img: "assets/other_portfolio.png",
-    href: "https://arshadchowdhury.github.io/better-mail-arshad/",
+    title: "Online Shop",
+    img: "assets/online_shop.png",
+    href: "https://arshadchowdhury.github.io/Online-Shop/",
   },
   {
     id: 5,
@@ -31,9 +31,9 @@ export const featuredPortfolio = [
   },
   {
     id: 6,
-    title: "React-Calculator",
-    img: "assets/calculator.png",
-    href: "https://reactcalculatorbyarshad.netlify.app/",
+    title: "Other Portfolio",
+    img: "assets/other_portfolio.png",
+    href: "https://arshadchowdhury.github.io/better-mail-arshad/",
   },
 ];
 
