@@ -19,12 +19,17 @@ export default function Contacts() {
       Phone_Number: phoneNumber,
       Messages: messages,
     };
-    axios.post(`https://sheet.best/api/sheets/${apiKey}`, data).then(() => {
-      setName("");
-      setEmail("");
-      setPhoneNumber("");
-      setMessages("");
-    });
+    axios
+      .post(
+        `https://sheet.best/api/sheets/38a9a2a7-d170-4040-9fd5-d3e7bd17ae41`,
+        data
+      )
+      .then(() => {
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setMessages("");
+      });
   };
 
   return (
