@@ -19,7 +19,7 @@ export default function Contacts() {
       Phone_Number: phoneNumber,
       Messages: messages,
     };
-    axios.post(apiKey, data).then(() => {
+    axios.post(`https://sheet.best/api/sheets/${apiKey}`, data).then(() => {
       setName("");
       setEmail("");
       setPhoneNumber("");
