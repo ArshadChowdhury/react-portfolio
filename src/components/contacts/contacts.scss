@@ -106,6 +106,7 @@ input[type="text"]:focus {
       color: green;
       margin-top: 5px;
       box-sizing: border-box;
+      overflow: hidden;
 
       img {
         height: 15px;
