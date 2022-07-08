@@ -1,6 +1,6 @@
 # React Portfolio
 ## Live site url - https://bettermailarshad.netlify.app
-## Built this react portfolio website of mine fully from 0
+## Built this react portfolio website of mine fully from scratch
 ### I've used lots of React hooks in it like useState,useEffect etc
 ### I've also included some of my smaller projects in the portfolio section, make sure to check them out.
 ## Here's a little preview of the webpage -
