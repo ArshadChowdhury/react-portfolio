@@ -1,6 +1,9 @@
-import "./contacts.scss";
 import { useState } from "react";
+
 import axios from "axios";
+import { Facebook, Twitter, LinkedIn } from "@material-ui/icons";
+
+import "./contacts.scss";
 
 export default function Contacts() {
   const apiKey = process.env.REACT_APP_API_KEY;
@@ -39,6 +42,13 @@ export default function Contacts() {
       </div>
       <div className="right">
         <h2>Contact Me</h2>
+
+        <div className="social-media">
+          <a href="https://www.facebook.com/arshad.chowdhury23/" target="_blank" rel="noreferrer"><Facebook /></a>
+          <a href="https://twitter.com/Arshaaaaaaaaaad" target="_blank" rel="noreferrer"><Twitter /></a>
+         <a href="https://www.linkedin.com/in/md-arshad-67920b213/" target="_blank" rel="noreferrer"><LinkedIn /></a>
+        </div>
+
         <form onSubmit={handleSubmit}>
           <input
             type="text"

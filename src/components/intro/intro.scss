@@ -1,8 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
+  background-color: #F1F6F9;
   display: flex;
 
   @include mobile {
@@ -12,6 +11,14 @@
 
   @include tab {
     font-size: 20px;
+  }
+
+  .intro-text{
+    font-weight: 400;
+  }
+
+  .dev-text{
+    font-weight: 500;
   }
 
   .left {
@@ -24,9 +31,9 @@
     }
 
     .imgContainer {
-      height: 450px;
+      height: 500px;
       width: 450px;
-      background-color: #bb6464;
+      background-color: #454545;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -34,29 +41,31 @@
       float: right;
       margin-top: 25%;
       transform: matrix3d(-50%, 50%);
-      animation: slide 2.5s linear;
+      animation: slide 1.5s linear;
 
       @include mobile {
         align-items: flex-start;
       }
 
       @keyframes slide {
+
         0% {
-          background-color: #461111;
-          top: 0px;
-          transform: translate(50%, 50%);
-          border-radius: 50%;
-        }
-        50% {
-          background-color: #9b0000;
-          top: 0px;
-          border-radius: 50%;
-          transform: translate(-50%, -50%);
+          background-color: #FDE2F3;
+          transform: translate(-100%, 0px);
           opacity: 0;
         }
+        30% {
+          background-color: #E5BEEC;
+          opacity: 30%;
+        }
+        50% {
+          background-color: #917FB3;
+          opacity: 50%;
+        }
         100% {
-          background-color: #bb6464;
-          border-radius: 50%;
+          background-color: #2A2F4F;
+          transform: translate(0px);
+          opacity: 100%;
         }
       }
       img {
@@ -114,7 +123,7 @@
 
         span {
           font-size: inherit;
-          color: #bb6464;
+          color: #263A29;
           @include mobile {
             font-size: 20px;
           }

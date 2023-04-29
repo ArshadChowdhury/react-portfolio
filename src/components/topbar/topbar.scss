@@ -1,7 +1,7 @@
 @import "../../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
 
 .topbar {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   width: 100%;
   height: 70px;
@@ -16,18 +16,29 @@
     padding: 15px 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+
+    .cv-button{
+      padding: 9px 14px;
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: #454545;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+    }
 
     .left {
       display: flex;
       align-items: center;
 
       .logo {
-        font-size: 30px;
+        font-size: 1.7rem;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 700;
         color: inherit;
         margin-right: 40px;
+        font-family: "Darumadrop One", cursive;
       }
 
       .itemContainer {
@@ -35,29 +46,26 @@
         align-items: center;
         padding: 0 20px;
         margin-left: 100px;
-  
+    
         &:hover {
           transform: scale(1.1);
           font-weight: 900;
-          cursor: help;
+          cursor: pointer;
+          overflow: hidden;
         }
+
         @include mobile {
           display: none;
         }
 
         .icon {
           padding: 0 5px;
-          font-size: 18px;
           height: 25px;
           width: 25px;
         }
 
-        .rightSide {
-          margin-left: 170px;
-        }
-
         span {
-          font-size: 15px;
+          font-size: 20px;
           font-weight: 400;
         }
       }
@@ -82,11 +90,10 @@
     }
   }
   &.active {
-    background-color: #fe7e6d;
+    background-color: #263a29;
     color: #fff;
     h2 {
-      color: black;
-      font-weight: 400;
+      font-weight: 700;
     }
 
     .menu {

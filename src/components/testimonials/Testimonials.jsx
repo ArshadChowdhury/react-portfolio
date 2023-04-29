@@ -14,7 +14,7 @@ export default function Testimonials() {
     {
       id: 2,
       name: "Joshua Fluke",
-      title: "CEO of Grind Reel",
+      title: "CEO at Grind Reel",
       img: "assets/jshua.jpg",
       icon: "assets/youtube.png",
       href: "https://www.youtube.com/c/JoshuaFluke1",
@@ -41,7 +41,7 @@ export default function Testimonials() {
             <div className="top">
               <img className="left" src="assets/arrow.png" alt="icon" />
               <img className="user" src={d.img} alt="User" />
-              <a href={d.href}>
+              <a href={d.href} target="_blank" rel="noreferrer">
                 {" "}
                 <img className="right" src={d.icon} alt="icon" />
               </a>

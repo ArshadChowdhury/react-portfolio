@@ -1,40 +1,55 @@
 export const featuredPortfolio = [
+
   {
     id: 1,
+    title: "Next-js E-commerce App",
+    img: "assets/next-ecom.png",
+    href: "https://nextjs-ecommercebyarshad.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "React E-commerce App",
+    img: "assets/react-ecom.png",
+    href: "https://react-daraz-clone.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Dummy E-commerce App",
+    img: "assets/dummy-ecom.png",
+    href: "https://ecommercedummybyarshad.netlify.app/",
+  },
+  {
+    id: 4,
     title: "React-Calculator",
     img: "assets/calculator.png",
     href: "https://reactcalculatorbyarshad.netlify.app/",
   },
+  
   {
-    id: 2,
-    title: "Daily Blog App",
-    img: "assets/blogz.png",
-    href: "https://dailyblogbyarshad.herokuapp.com/",
+    id: 5,
+    title: "Jquery Address Book",
+    img: "assets/jquery-address-book.png",
+    href: "https://arshadchowdhury.github.io/address_book/",
   },
   {
-    id: 3,
-    title: "To-Do-List App",
-    img: "assets/to_do_listz.png",
-    href: "https://todolistbyarshad.herokuapp.com/",
-  },
-  {
-    id: 4,
+    id: 6,
     title: "Online Shop",
     img: "assets/online_shop.png",
     href: "https://arshadchowdhury.github.io/Online-Shop/",
   },
   {
-    id: 5,
-    title: "Front-End-Mentor Challenge",
-    img: "assets/front_end.png",
-    href: "https://arshadchowdhury.github.io/front-end-mentor-challenge1/",
+    id: 7,
+    title: "Daily Blog App",
+    img: "assets/blogz.png",
+    href: "https://github.com/ArshadChowdhury/Daily-Blog-Updated",
   },
   {
-    id: 6,
-    title: "Other Portfolio",
-    img: "assets/other_portfolio.png",
-    href: "https://arshadchowdhury.github.io/better-mail-arshad/",
+    id: 8,
+    title: "To-Do-List App",
+    img: "assets/to_do_listz.png",
+    href: "https://github.com/ArshadChowdhury/To-Do-List-App",
   },
+  
 ];
 
 export const webPortfolio = [

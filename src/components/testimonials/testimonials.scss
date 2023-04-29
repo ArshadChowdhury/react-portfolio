@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .testimonials {
-  background-color: whitesmoke;
+  background-color: #F1F6F9 ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,12 +26,12 @@
 
     @include mobile {
       flex-direction: column;
-      height: 90vh;
+      height: 100vh;
     }
 
     .card {
-      background-color: white;
-      width: 250px;
+      background-color:white;
+      width: 17vw;
       height: 70%;
       border-radius: 10px;
       box-shadow: 0 0 15px -8px black;
@@ -43,19 +43,18 @@
       transition: all 0.4s linear;
 
       @include mobile {
-        height: 180px;
+        width: 75vw;
         margin: 2px 0;
-        height: 45%;
+
       }
 
       &.featured {
-        width: 300px;
+        width: 22vw;
         height: 75%;
         margin: 0 30px;
 
         @include mobile {
           width: 85vw;
-          height: 45%;
           margin: 1px;
         }
       }
@@ -98,14 +97,14 @@
       }
 
       .center {
-        padding: 7px;
+        padding: 17px;
         border-radius: 15px;
         background-color: wheat;
-        font-size: 14px;
+        font-size: 18px;
 
         @include mobile {
-          padding: 2px 3px;
-          font-size: 9px;
+          padding: 5px 7px;
+          font-size: 13px;
         }
       }
       .bottom {
@@ -113,6 +112,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        font-size: large;
         @include mobile {
           font-size: 12px;
         }

@@ -24,14 +24,14 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There !! I'm</h2>
+          <h2 className="intro-text">Hi There !! I'm</h2>
           <h1>Arshad</h1>
-          <h3>
-            A Web <span ref={textRef}></span>
+          <h3 className="intro-text">
+            A Web <span className="dev-text" ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down_arrow.jpg" alt="Down Arrow" />
+          <img src="assets/down_arrow.png" alt="Down Arrow" />
         </a>
       </div>
     </div>
