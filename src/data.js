@@ -39,14 +39,20 @@ export const featuredPortfolio = [
   },
   {
     id: 7,
-    title: "Daily Blog App",
-    img: "assets/blogz.png",
-    href: "https://github.com/ArshadChowdhury/Daily-Blog-Updated",
+    title: "Advice Generator App",
+    img: "assets/advice_generator.png",
+    href: "https://arshadchowdhury.github.io/random-advice-generator/",
   },
   {
     id: 8,
+    title: "Daily Blog App",
+    img: "assets/blog.png",
+    href: "https://github.com/ArshadChowdhury/Daily-Blog-Updated",
+  },
+  {
+    id: 9,
     title: "To-Do-List App",
-    img: "assets/to_do_listz.png",
+    img: "assets/to_do_list.png",
     href: "https://github.com/ArshadChowdhury/To-Do-List-App",
   },
   

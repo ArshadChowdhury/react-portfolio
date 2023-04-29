@@ -6,7 +6,6 @@ import { Facebook, Twitter, LinkedIn } from "@material-ui/icons";
 import "./contacts.scss";
 
 export default function Contacts() {
-  const apiKey = process.env.REACT_APP_API_KEY;
   const [message, setMessage] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
