@@ -3,7 +3,8 @@
 $mainColor: #15023a;
 
 $width_mobile: 480px;
-$width_tab: 768px;
+$width_laptop : 1440px;
+$width_tab: 820px;
 
 @mixin mobile {
   @media (max-width: #{$width_mobile}) {
@@ -11,8 +12,14 @@ $width_tab: 768px;
   }
 }
 
+@mixin laptop {
+  @media (max-width: #{$width_laptop}) {
+    @content;
+  }
+}
+
 @mixin tab {
-  @media (max-height: #{$width_tab}) {
+  @media (max-width: #{$width_tab}) {
     @content;
   }
 }

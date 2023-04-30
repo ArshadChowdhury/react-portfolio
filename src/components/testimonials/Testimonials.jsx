@@ -24,7 +24,7 @@ export default function Testimonials() {
     {
       id: 3,
       name: "Iftekhar Ahmed",
-      title: "Data Scientist at kloeckner.i GmbH",
+      title: "Data Scientist",
       img: "assets/iftekhar.jpg",
       href: "https://www.linkedin.com/in/ahmed-iftekhar/",
       icon: "assets/linked_in.png",

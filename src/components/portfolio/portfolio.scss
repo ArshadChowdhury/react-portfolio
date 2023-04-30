@@ -9,18 +9,22 @@
   h1 {
     font-size: 40px;
     margin: 30px 0;
+    overflow: hidden;
 
     @include mobile {
       font-size: 22px;
     }
+    @include tab {
+      margin: 0;
+      padding-bottom: 5px;
+     }
   }
 
   ul {
     margin: 20px;
     padding: 0;
     list-style: none;
-    display: flex;
-    
+    display: flex;    
 
     @include mobile {
       font-size: 19px;
@@ -28,9 +32,13 @@
       justify-content: center;
       margin: 10px 5px;
     }
+
+    @include tab {
+      margin: 5px 0;
+     }
   }
   .container {
-    width: 60vw;
+    width: 70vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +47,11 @@
 
     @include mobile {
       width: 100%;
+    }
+
+    @include laptop {
+      width: 80vw;
+      margin-top: 0;
     }
 
     .item {

@@ -9,6 +9,9 @@
     @include mobile {
       display: none;
     }
+    @include laptop {
+      margin-bottom: 635px;
+    }
   }
   background-color: cornsilk;
   display: flex;
@@ -30,11 +33,23 @@
 
     &.left {
       left: 100px;
+      @include laptop{
+        left: 50px;
+      }
+      @include tab {
+        left: 30px; 
+       }
     }
+
 
     &.right {
       right: 100px;
-      transform: rotate(180deg);
+      @include laptop{
+        right: 50px;
+      }
+      @include tab {
+        right: 30px; 
+       }
     }
   }
 
@@ -83,6 +98,9 @@
             flex: 9;
             text-size:12px;
           }
+          @include laptop {
+            flex:6;
+          }
 
           .left-container {
             padding: 0 30px;
@@ -91,6 +109,9 @@
             @include mobile {
               padding: 0 5px;
             }
+            @include tab {
+              padding: 3px;
+             }
           }
 
           .left-container p {

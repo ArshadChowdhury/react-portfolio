@@ -44,6 +44,10 @@ input[type="text"]:focus {
       flex: 3;
     }
 
+    @include tab {
+      flex: 2;
+     }
+
     .social-media {
       width: 30%;
       display: flex;
@@ -71,6 +75,10 @@ input[type="text"]:focus {
         justify-content: flex-start;
         align-items: center;
       }
+
+      @include tab {
+        width: auto;
+       }
 
       input {
         width: 300px;

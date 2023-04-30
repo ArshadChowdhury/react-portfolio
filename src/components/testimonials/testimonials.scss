@@ -45,7 +45,10 @@
       @include mobile {
         width: 75vw;
         margin: 2px 0;
+      }
 
+      @include laptop {
+        width: 80vw;
       }
 
       &.featured {
@@ -56,6 +59,10 @@
         @include mobile {
           width: 85vw;
           margin: 1px;
+        }
+
+        @include laptop {
+          width: 85vw;
         }
       }
 
@@ -101,6 +108,10 @@
         border-radius: 15px;
         background-color: wheat;
         font-size: 18px;
+
+        @include tab {
+          font-size: 14px;
+         }
 
         @include mobile {
           padding: 5px 7px;

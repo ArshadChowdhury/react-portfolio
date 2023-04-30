@@ -4,6 +4,11 @@
   background-color: #F1F6F9;
   display: flex;
 
+  @include tab {
+   flex-direction: column;
+   align-items: center;     
+  }
+
   @include mobile {
     flex-direction: column;
     align-items: center;
@@ -25,6 +30,10 @@
     flex: 4;
     overflow: hidden;
 
+    @include tab {
+     flex: 5;   
+    }
+
     @include mobile {
       flex: 5.5;
       font-size: 50px;
@@ -42,6 +51,10 @@
       margin-top: 25%;
       transform: matrix3d(-50%, 50%);
       animation: slide 1.5s linear;
+
+      @include tab {
+       align-items: center;
+      }
 
       @include mobile {
         align-items: flex-start;
@@ -94,6 +107,11 @@
       align-items: flex-start;
       justify-content: center;
       color: #000000;
+
+      @include tab {
+        margin-left: 0;
+        width: 35vw;
+       }
 
       @include mobile {
         width: 200px;

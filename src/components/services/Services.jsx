@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import {  DesktopMac , PhoneAndroid, Web } from "@material-ui/icons";
+import {  DesktopMac , PhoneAndroid, Web, ArrowLeft, ArrowRight } from "@material-ui/icons";
 
 import "./services.scss";
 
@@ -62,18 +62,8 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <img
-        src="assets/left_arrow.png"
-        className="arrow left"
-        alt="Left Arrow"
-        onClick={() => handleClick("left")}
-      />
-      <img
-        src="assets/left_arrow.png"
-        className="arrow right"
-        alt="Right Arrow"
-        onClick={() => handleClick("right")}
-      />
+      <ArrowLeft className="arrow left" onClick={() => handleClick("left")} />
+      <ArrowRight className="arrow right" onClick={() => handleClick("right")}/>
     </div>
   );
 }

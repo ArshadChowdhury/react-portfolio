@@ -1,6 +1,8 @@
-import Portfoliolist from "../portfolioList/Portfoliolist";
-import "./portfolio.scss";
 import { useEffect, useState } from "react";
+
+
+import "./portfolio.scss";
+import Portfoliolist from "../portfolioList/Portfoliolist";
 import { featuredPortfolio, webPortfolio, mobilePortfolio } from "../../data";
 
 export default function Portfolio() {
@@ -50,7 +52,6 @@ export default function Portfolio() {
           <a key={i} href={d.href} target="_blank" rel="noreferrer">
             <div className="item" key={i}>
               <img src={d.img} alt="Images" />
-
               <h3>{d.title}</h3>
             </div>
           </a>

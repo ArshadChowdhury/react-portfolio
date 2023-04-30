@@ -29,8 +29,8 @@ export default function Topbar({ menuActive, setMenuActive }) {
             className="itemContainer"
             onClick={() => (window.location = "#contacts")}
           >
-            <ArrowLeftSharp className="icon rightSide" />
-            <h2 className="talk">Let's Talk</h2>
+            <ArrowLeftSharp className="icon" />
+            <h2>Let's Talk</h2>
           </div>
 
           <div className="itemContainer">
