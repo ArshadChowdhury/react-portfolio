@@ -38,7 +38,7 @@ export default function Topbar({ menuActive, setMenuActive }) {
               className="cv-button"
               onClick={() =>
                 (window.location =
-                  "https://drive.google.com/file/d/15Bp4fCXsgyC_VVADpAIyns9_fh69Qy-J/view?usp=sharing")
+                  "https://drive.google.com/file/d/10Nl2GTGJXcRr7WJVl9JIoC_xRiFNfOq6/view?usp=sharing")
               }
             >
               Watch My CV
